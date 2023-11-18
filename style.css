@@ -1,0 +1,153 @@
+img {
+    cursor: pointer;
+}
+
+/* Styles for the modal */
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-header {
+    background-color: #343a40;
+    color: #fff;
+    border-bottom: none;
+    padding: 15px;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+/* Styles for the close button of the modal */
+.close {
+    color: #fff;
+}
+
+/* Styles for the image in the modal body */
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles for links in the episode list */
+.modal-body ul a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.2s;
+}
+
+.modal-body ul a:hover {
+    color: #0056b3;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #007bff;
+}
+
+/* Styles for the search form */
+#location-form {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Styles for the location and residents information section */
+#location-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #d1d3e2;
+    border-radius: 4px;
+}
+
+/* Styles for the resident list (the <ul> element) */
+#resident-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+/* Styles for each resident item (the <li> element) */
+.resident-card {
+    flex-basis: calc(20% - 15px);
+    border: 1px solid #d1d3e2;
+    border-radius: 4px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Styles for the content of each resident item */
+.resident-card-content {
+    padding: 15px;
+}
+
+/* Styles for the resident's name in each resident item */
+.resident-card-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Styles for the resident's image in each resident item */
+.resident-card-image {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+/* Hover styles for each resident item */
+.resident-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for each item in the resident list (the <li> element) */
+#resident-list > li {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: calc(20% - 20px);
+    margin: 10px auto;
+}
+
+/* Styles for the content of each card item */
+#resident-list > li .resident-card-content {
+    text-align: center;
+}
+
+/* Styles for the resident's name in each card item */
+#resident-list > li .resident-card-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styles for the resident's image in each card item */
+#resident-list > li .resident-card-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Hover styles for the card items */
+#resident-list > li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
